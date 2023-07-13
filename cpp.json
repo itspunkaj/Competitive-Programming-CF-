@@ -24,6 +24,7 @@ using namespace std;
 #define pb push_back
 #define F first
 #define S second
+#define sz size()
 #define all(V) V.begin(),V.end()
 #define rall(V) V.rbegin(),V.rend()
 #define take(x) for(auto &y:x) cin>>y;
@@ -60,6 +61,9 @@ void sieve()
         }
     }
     sort(all(pp));
+}
+void unqVec(vi &v){
+    v.erase(unique(all(v)),v.end());
 }
 
 //------------------------------------------------------* Template Ends Here *------------------------------------------------------//
