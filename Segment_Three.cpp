@@ -1,3 +1,8 @@
+/*
+    Problem Statement:
+    https://www.codechef.com/START99D/problems/SEGTHREE
+*/
+
 #include <bits/stdc++.h>
 #include <string.h>
 
